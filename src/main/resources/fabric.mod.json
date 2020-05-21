@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "here",
+  "version": "${version}",
+
+  "name": "Here",
+  "description": "Highlight player for others in the same world",
+  "authors": [
+    "UnknownBuild"
+  ],
+  "contact": {
+    "homepage": "https://github.com/UnknownBuild",
+    "sources": "https://github.com/UnknownBuild/Here"
+  },
+
+  "license": "NoLicense",
+  "icon": "assets/here/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "studio.xmatrix.minecraft.mod.here.HereServer"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
